@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example1-post1
+title: Example1-post3
 description: >
   A page showing Hydejack-specific markdown content.
 image: 
@@ -16,6 +16,8 @@ sitemap: false
 categories:
   - example1
 ---
+
+# Example1-post3
 
 Hydejack offers a few additional features to markup your markdown.
 Don't worry, these are merely CSS classes added with kramdown's `{:...}` syntax,

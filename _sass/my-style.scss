@@ -31,3 +31,72 @@
 .nav-btn-bar {
   height: 3rem;
 }
+
+.content .avatar {
+  float: left  !important;
+  box-sizing: content-box;
+  border: 1rem solid var(--body-bg);
+  transition: border-color 1s ease;
+  margin-top: 5px !important;
+  margin-left: 5px !important;
+  width : 140px !important;
+  height: 140px !important;
+}
+
+.author-body-description{
+  margin-left: 200px !important;
+  margin-top: 40px !important;
+}
+
+.content a:not(.btn):not(.no-hover) {
+    text-decoration-color: rgba(255, 15, 16, 0.5);
+}
+
+.markdown-body > p > a {
+  font-weight: bold !important;
+  color: rgb(3,102,214) !important;
+}
+
+.markdown-body > ol > li > p > a {
+  font-weight: bold !important;
+  color: rgb(3,102,214) !important;
+}
+
+.markdown-body {
+  kbd {
+    font-size: 15px;
+    font-family: monospace;
+    color: #555;
+    background-color: #fcfcfc;
+    border : solid 1px #ccc;
+    border-radius: 3px;
+    border-bottom-color: #bbb;
+    padding: 3px 5px;
+  }
+  mark {
+    padding: 3px 5px;
+    background-color: #FFF9C4;
+  }
+  under {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-position: under;
+    padding-bottom: 2px;
+  }
+}
+
+
+code {
+    padding: .25em .5em;
+    background-color: rgb(251,232,201);
+    border-radius: 5px;
+}
+
+pre>code {
+    font-size: 1.1em;
+}
+
+.highlight {
+  color: rgb(201,201,201) !important;
+  background-color: rgb(21,21,21) !important;
+}
