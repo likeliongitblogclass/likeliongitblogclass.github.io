@@ -98,7 +98,7 @@ utterances를 적용하려고 하는 이유는 다음과 같다.
 따라서 새로운 레파지토리를 만들어줍니다.
 
 
-![그림1](/assets/img/Blog/githubpages/7-1.jpeg)
+![그림1](/assets/img/blog/githubpages/7-1.jpeg)
 
 저는 이름을 blog-comments-repo로 지어주었습니다.
 
@@ -111,29 +111,29 @@ utterances를 적용하려고 하는 이유는 다음과 같다.
 
 설치 버튼을 클릭해 설치를 실행한다.
 
-![그림2](/assets/img/Blog/githubpages/7-2.jpeg)
+![그림2](/assets/img/blog/githubpages/7-2.jpeg)
 
 
-![그림3](/assets/img/Blog/githubpages/7-3.jpeg){: width="400" height="400}
+![그림3](/assets/img/blog/githubpages/7-3.jpeg){: width="400" height="400}
 
 처음에는 All repositories로 선택되어있는데 Only select repositories를 선택하고 블로그 댓글저장소(blog-comments-repo)를 골라주고 이후 Install 버튼을 누른다.
 
-![그림4](/assets/img/Blog/githubpages/7-4.jpeg)
+![그림4](/assets/img/blog/githubpages/7-4.jpeg)
 
 이후 비밀번호로 한번 확인받는다. 이후 아래와 같은 페이지가 나온다.
 
-![그림5](/assets/img/Blog/githubpages/7-5.jpeg){: width="400" height="400}
+![그림5](/assets/img/blog/githubpages/7-5.jpeg){: width="400" height="400}
 
 조금더 내려 configuration의 repo:에 자신의 블로그 댓글 저장소를 입력해준다.
 
 
 ## 4_ configuration
 ---
-![그림6](/assets/img/Blog/githubpages/7-6.jpeg){: width="400" height="400}
+![그림6](/assets/img/blog/githubpages/7-6.jpeg){: width="400" height="400}
 
 #### Blog post <--> Issue 매핑 방식을 선택
 
-![그림7](/assets/img/Blog/githubpages/7-7.jpeg){: width="400" height="400}
+![그림7](/assets/img/blog/githubpages/7-7.jpeg){: width="400" height="400}
 
 위에서 언급했듯이 utterances는 게시글 하나와 레파지토리의 이슈 하나가 서로 연동되는 시스템이다.
 
@@ -175,7 +175,7 @@ utterances를 적용하려고 하는 이유는 다음과 같다.
 
 #### Theme 와 Enable Utterances
 
-![그림8](/assets/img/Blog/githubpages/7-8.jpeg)
+![그림8](/assets/img/blog/githubpages/7-8.jpeg)
 
 테마를 흰색할지 검정색할지등 골라주고 위 코드를 복사해준다.
 
@@ -186,10 +186,10 @@ _includes/comments.html
 </strong>
  파일에 아래와 같이 복사한 코드를 넣어준다.
 
-![그림9](/assets/img/Blog/githubpages/7-9.jpeg)
+![그림9](/assets/img/blog/githubpages/7-9.jpeg)
 
 이제 저장을 하고 터미널에 수번을 했던것처럼 bundle exec jekyll serve를 해준다.
 
-![그림10](/assets/img/Blog/githubpages/7-10.jpeg)
+![그림10](/assets/img/blog/githubpages/7-10.jpeg)
 
 짜잔~ 댓글기능이 생겼다.
