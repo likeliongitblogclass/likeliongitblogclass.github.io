@@ -176,6 +176,6 @@ pre>code {
   display: none;
 }
 
-a::after {
+div > a::after {
   display: none !important;
 }
