@@ -213,9 +213,9 @@ a.external::after, a::after {
   background-color: lightgrey !important;
 }
 .list-post > ul > li > div{
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 }
 .list-post > ul > li > div > a{
   margin-left: 1.5rem !important;
