@@ -176,18 +176,6 @@ pre>code {
   display: none;
 }
 
-a.external::after, a[href*="://"]:not(.no-mark-external):not(.no-mark)::after, a.no-push-state:not(.no-mark-external):not(.no-mark)::after {
-  display: none !important;
-}
-
-a::after {
-  display: none !important;
-}
-
-img::after{
-  display: none !important;
-}
-
-.div.hits a {
-  display: none !important;
+a.external::after, a::after {
+  display: none;
 }
