@@ -256,9 +256,9 @@ a.external::after, a::after {
 }
 
 .list-post .related-posts>li+li{
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 .list-post li.h6{
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
