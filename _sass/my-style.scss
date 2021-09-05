@@ -184,29 +184,29 @@ a.external::after, a::after {
 // time-line
 
 .list-lead{
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
-.list-lead::after{
-  content:"";
-  display:block;
-  position: relative;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  top: -21px;
-  left: 62px;
+.list-lead::after {
+  content:"" !important;
+  display:block !important;
+  position: relative !important;
+  border-radius: 50% !important;
+  width: 12px !important;
+  height: 12px !important;
+  top: -21px !important;
+  left: 62px !important;
   // border: 3px solid;
 
-  background-color: lightgrey;
-  z-index: 1;
+  background-color: lightgrey !important;
+  z-index: 1 !important;
 }
 .list-post li {
-  line-height: 3rem;
+  line-height: 3rem !important;
 }
 .list-post > ul > li:first-child::before, .list-post > ul > li::after{
-  content: "";
-  width: 4px;
-  left: 66px;
+  content: "" !important;
+  width: 4px !important;
+  left: 66px !important;
   display: inline-block !important;
   float: left !important;
   position: relative !important;
