@@ -176,6 +176,8 @@ pre>code {
   display: none;
 }
 
-.hits > a > img::after {
+.hits {
+   a > img::after {
   display: none !important;
+   }
 }
