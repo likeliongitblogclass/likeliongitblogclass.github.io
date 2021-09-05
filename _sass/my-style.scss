@@ -207,10 +207,10 @@ a.external::after, a::after {
   content: "";
   width: 4px;
   left: 66px;
-  display: inline-block;
-  float: left;
-  position: relative;
-  background-color: lightgrey;
+  display: inline-block !important;
+  float: left !important;
+  position: relative !important;
+  background-color: lightgrey !important;
 }
 .list-post > ul > li > div{
   white-space: nowrap;
@@ -218,21 +218,21 @@ a.external::after, a::after {
   text-overflow: ellipsis;
 }
 .list-post > ul > li > div > a{
-  margin-left: 1.5rem;
-  position: relative;
+  margin-left: 1.5rem !important;
+  position: relative !important;
 }
 .list-post > ul > li > div > a::before{
-  content: "";
-  display: inline-block;
-  position: relative;
-  border-radius: 50%;
+  content: "" !important;
+  display: inline-block !important;
+  position: relative !important;
+  border-radius: 50% ;
   width: 8px;
   height: 8px;
-  float: left;
+  float: left !important;
   top: 1.35rem;
   left: 60px;
-  box-shadow: 0 0 5px 0 grey;
-  background-color: white;
+  box-shadow: 0 0 5px 0 grey !important;
+  background-color: white !important;
   z-index: 1;
 
   transition: all 0.5s;
