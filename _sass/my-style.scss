@@ -120,25 +120,25 @@ pre>code {
   max-width: 50% !important;
 }
 
-.page-control > div > button {
+.page-control > div > a {
   background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-  background-color: #ffffff;
-  border-radius: 16px;
-  border: 3px solid #0589d6;
-  padding:6px 100px;
-  font-family: Arial;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  display: inline-block;
+  background-color: #ffffff !important;
+  border-radius: 16px !important;
+  border: 3px solid #0589d6 !important;
+  padding:6px 100px !important;
+  font-family: Arial !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  display: inline-block !important;
 }
 
-.page-control > div > button:hover {
-  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-  background-color:#f6f6f6;
+.page-control > div > a:hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%) !important;
+  background-color:#f6f6f6 !important;
 }
 
-.page-control > div > button:active {
+.page-control > div > a:active {
   position:relative;
   top:1px;
   }
@@ -176,3 +176,6 @@ pre>code {
   display: none;
 }
 
+a::after {
+  display: none !important;
+}
