@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Subcat-Test2-post1
-image: /assets/img/blog/jj-ying.jpg
+image: /assets/img/blog/example1/cheetah.jpg
 accent_image: 
-  background: url('/assets/img/blog/jj-ying.jpg') center/cover
+  background: url('/assets/img/blog/example1/cheetah.jpg') center/cover
   overlay: false
 accent_color: '#ccc'
 theme_color: '#ccc'
